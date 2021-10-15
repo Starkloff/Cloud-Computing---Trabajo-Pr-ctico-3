@@ -1,0 +1,8 @@
+{
+  "apiVersion": "2012-08-10",
+  "region": "us-west-2",
+  "credentials": {
+    "accessKeyId": "2345",
+    "secretAccessKey": "2345"
+  }
+}

@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "425abba4-b7d1-4fad-a25f-075f8119c61c",
+		"name": "TP3 Computacion en la nube",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Envios Pendientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Entregar Envio",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/envios/{idEnvio}/entregado",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"envios",
+						"{idEnvio}",
+						"entregado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Crear Envio Pendiente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
